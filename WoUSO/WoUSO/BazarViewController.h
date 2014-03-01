@@ -1,5 +1,5 @@
 //
-//  ListViewController.h
+//  BazarViewController.h
 //  WoUSO
 //
 //  Created by Andrei Vasilescu on 01/03/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ListViewController : UIViewController
+@interface BazarViewController : UIViewController
 
 @end

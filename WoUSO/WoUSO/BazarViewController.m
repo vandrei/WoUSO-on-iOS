@@ -1,18 +1,18 @@
 //
-//  ListViewController.m
+//  BazarViewController.m
 //  WoUSO
 //
 //  Created by Andrei Vasilescu on 01/03/14.
 //  Copyright (c) 2014 Rosedu. All rights reserved.
 //
 
-#import "ListViewController.h"
+#import "BazarViewController.h"
 
-@interface ListViewController ()
+@interface BazarViewController ()
 
 @end
 
-@implementation ListViewController
+@implementation BazarViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

@@ -21,8 +21,6 @@
 		7528A15B1885EB490011A4F7 /* WoUSOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7528A15A1885EB490011A4F7 /* WoUSOTests.m */; };
 		758789F618C1E52700627BE3 /* UserSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758789F418C1E52700627BE3 /* UserSettingsViewController.m */; };
 		758789F718C1E52700627BE3 /* UserSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758789F518C1E52700627BE3 /* UserSettingsViewController.xib */; };
-		758789FB18C1E59500627BE3 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758789F918C1E59500627BE3 /* ListViewController.m */; };
-		758789FC18C1E59500627BE3 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758789FA18C1E59500627BE3 /* ListViewController.xib */; };
 		75878A0018C1E5E200627BE3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758789FE18C1E5E200627BE3 /* HomeViewController.m */; };
 		75878A0118C1E5E200627BE3 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758789FF18C1E5E200627BE3 /* HomeViewController.xib */; };
 		75878A3218C1E86A00627BE3 /* androidicon_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A0318C1E86A00627BE3 /* androidicon_small.png */; };
@@ -70,6 +68,9 @@
 		75878A5E18C1E86A00627BE3 /* vraja.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A2F18C1E86A00627BE3 /* vraja.png */; };
 		75878A5F18C1E86A00627BE3 /* wand.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A3018C1E86A00627BE3 /* wand.png */; };
 		75878A6018C1E86A00627BE3 /* zburatorii.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A3118C1E86A00627BE3 /* zburatorii.png */; };
+		75878A6418C1F21200627BE3 /* BazarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75878A6218C1F21200627BE3 /* BazarViewController.m */; };
+		75878A6518C1F21200627BE3 /* BazarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75878A6318C1F21200627BE3 /* BazarViewController.xib */; };
+		75878A6718C1F40100627BE3 /* BazaarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75878A6618C1F40100627BE3 /* BazaarCell.xib */; };
 		75A748FE18B8BDEE0007BE5F /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A748FC18B8BDEE0007BE5F /* LogInViewController.m */; };
 		75A748FF18B8BDEE0007BE5F /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */; };
 /* End PBXBuildFile section */
@@ -104,9 +105,6 @@
 		758789F318C1E52700627BE3 /* UserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSettingsViewController.h; sourceTree = "<group>"; };
 		758789F418C1E52700627BE3 /* UserSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettingsViewController.m; sourceTree = "<group>"; };
 		758789F518C1E52700627BE3 /* UserSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserSettingsViewController.xib; sourceTree = "<group>"; };
-		758789F818C1E59500627BE3 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
-		758789F918C1E59500627BE3 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
-		758789FA18C1E59500627BE3 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 		758789FD18C1E5E200627BE3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		758789FE18C1E5E200627BE3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		758789FF18C1E5E200627BE3 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
@@ -155,6 +153,10 @@
 		75878A2F18C1E86A00627BE3 /* vraja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vraja.png; sourceTree = "<group>"; };
 		75878A3018C1E86A00627BE3 /* wand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wand.png; sourceTree = "<group>"; };
 		75878A3118C1E86A00627BE3 /* zburatorii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zburatorii.png; sourceTree = "<group>"; };
+		75878A6118C1F21200627BE3 /* BazarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BazarViewController.h; sourceTree = "<group>"; };
+		75878A6218C1F21200627BE3 /* BazarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BazarViewController.m; sourceTree = "<group>"; };
+		75878A6318C1F21200627BE3 /* BazarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BazarViewController.xib; sourceTree = "<group>"; };
+		75878A6618C1F40100627BE3 /* BazaarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BazaarCell.xib; sourceTree = "<group>"; };
 		75A748FB18B8BDEE0007BE5F /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		75A748FC18B8BDEE0007BE5F /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
@@ -228,12 +230,13 @@
 				758789F318C1E52700627BE3 /* UserSettingsViewController.h */,
 				758789F418C1E52700627BE3 /* UserSettingsViewController.m */,
 				758789F518C1E52700627BE3 /* UserSettingsViewController.xib */,
-				758789F818C1E59500627BE3 /* ListViewController.h */,
-				758789F918C1E59500627BE3 /* ListViewController.m */,
-				758789FA18C1E59500627BE3 /* ListViewController.xib */,
 				758789FD18C1E5E200627BE3 /* HomeViewController.h */,
 				758789FE18C1E5E200627BE3 /* HomeViewController.m */,
 				758789FF18C1E5E200627BE3 /* HomeViewController.xib */,
+				75878A6118C1F21200627BE3 /* BazarViewController.h */,
+				75878A6218C1F21200627BE3 /* BazarViewController.m */,
+				75878A6318C1F21200627BE3 /* BazarViewController.xib */,
+				75878A6618C1F40100627BE3 /* BazaarCell.xib */,
 			);
 			path = WoUSO;
 			sourceTree = "<group>";
@@ -397,6 +400,8 @@
 				75878A3D18C1E86A00627BE3 /* coins.png in Resources */,
 				75878A4F18C1E86A00627BE3 /* placeholder_frame.png in Resources */,
 				7528A1401885EB490011A4F7 /* InfoPlist.strings in Resources */,
+				75878A6518C1F21200627BE3 /* BazarViewController.xib in Resources */,
+				75878A6718C1F40100627BE3 /* BazaarCell.xib in Resources */,
 				75878A4E18C1E86A00627BE3 /* messages.png in Resources */,
 				75878A3618C1E86A00627BE3 /* bazar.png in Resources */,
 				75878A4118C1E86A00627BE3 /* gold.png in Resources */,
@@ -410,7 +415,6 @@
 				75878A5F18C1E86A00627BE3 /* wand.png in Resources */,
 				75878A5318C1E86A00627BE3 /* profiles_cc.png in Resources */,
 				75878A5718C1E86A00627BE3 /* spell_green.png in Resources */,
-				758789FC18C1E59500627BE3 /* ListViewController.xib in Resources */,
 				75878A5918C1E86A00627BE3 /* spell_yellow.png in Resources */,
 				75878A5B18C1E86A00627BE3 /* tops.png in Resources */,
 				75878A5A18C1E86A00627BE3 /* tintasii.png in Resources */,
@@ -463,12 +467,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				758789FB18C1E59500627BE3 /* ListViewController.m in Sources */,
 				7528A1461885EB490011A4F7 /* AppDelegate.m in Sources */,
 				7528A1421885EB490011A4F7 /* main.m in Sources */,
 				758789F618C1E52700627BE3 /* UserSettingsViewController.m in Sources */,
 				75A748FE18B8BDEE0007BE5F /* LogInViewController.m in Sources */,
 				75878A0018C1E5E200627BE3 /* HomeViewController.m in Sources */,
+				75878A6418C1F21200627BE3 /* BazarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
