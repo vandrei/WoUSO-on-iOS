@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LogInViewController : UIViewController
+@interface LogInViewController : UITableViewController
 
+@property (strong, nonatomic) IBOutlet UIWebView * webView;
 
 
 @end
