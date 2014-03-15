@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "LogInViewController.h"
+#import "HomeViewController.h"
+#include "NXOAuth2.h"
 
 @implementation AppDelegate
 
@@ -16,11 +18,18 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    LogInViewController * controller = [[LogInViewController alloc] initWithNibName:@"LogInViewController" bundle:nil];
-    [self.window setRootViewController:controller];
+    HomeViewController * controller = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
+    UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:controller];
+    navController.navigationBarHidden = YES;
+    self.window.rootViewController = navController;
     [self.window makeKeyAndVisible];
     return YES;
 }
+
+/*- (void)initializeOAuth
+{
+    [[NXOAuth2AccountStore sharedStore] setClientID:<#(NSString *)#> secret:<#(NSString *)#> authorizationURL:<#(NSURL *)#> tokenURL:<#(NSURL *)#> redirectURL:<#(NSURL *)#> forAccountType:<#(NSString *)#>]
+}*/
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

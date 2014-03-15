@@ -7,6 +7,7 @@
 //
 
 #import "LogInViewController.h"
+#import "NXOAuth2.h"
 
 @interface LogInViewController ()
 

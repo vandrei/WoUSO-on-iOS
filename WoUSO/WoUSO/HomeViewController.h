@@ -10,4 +10,7 @@
 
 @interface HomeViewController : UIViewController
 
+-(IBAction)showBazaar;
+
+
 @end

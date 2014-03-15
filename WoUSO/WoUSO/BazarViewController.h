@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BazarViewController : UIViewController
+@interface BazarViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property(strong, nonatomic) IBOutlet UIView *button1_selected;
+@property(strong, nonatomic) IBOutlet UIView *button2_selected;
 
+-(IBAction)goBack;
+-(IBAction)showBazaar;
+-(IBAction)showSummary;
 @end

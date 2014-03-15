@@ -7,6 +7,7 @@
 //
 
 #import "HomeViewController.h"
+#import "BazarViewController.h"
 
 @interface HomeViewController ()
 
@@ -33,6 +34,12 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void)showBazaar
+{
+    BazarViewController * controller = [[BazarViewController alloc] initWithNibName:@"BazarViewController" bundle:nil];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 @end
