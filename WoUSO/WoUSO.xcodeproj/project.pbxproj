@@ -92,6 +92,12 @@
 		758D8A4718D4455B00FC1631 /* NXOAuth2Request.m in Sources */ = {isa = PBXBuildFile; fileRef = 758D8A3218D4455B00FC1631 /* NXOAuth2Request.m */; };
 		758D8A5018D4456A00FC1631 /* libOAuth2Client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 758D8A4D18D4455B00FC1631 /* libOAuth2Client.a */; };
 		758D8A5218D4464B00FC1631 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758D8A5118D4464B00FC1631 /* Security.framework */; };
+		758D8A5418D4484D00FC1631 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5318D4484D00FC1631 /* TopViewController.xib */; };
+		758D8A5618D44B3200FC1631 /* TopSeriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */; };
+		758D8A5818D44D5000FC1631 /* TopUsersCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5718D44D5000FC1631 /* TopUsersCell.xib */; };
+		758D8A5A18D44F8000FC1631 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5918D44F8000FC1631 /* MessageViewController.xib */; };
+		758D8A5E18D455C100FC1631 /* ComposeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5D18D455C100FC1631 /* ComposeView.xib */; };
+		758D8A6018D4595200FC1631 /* UserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5F18D4595200FC1631 /* UserView.xib */; };
 		75A748FE18B8BDEE0007BE5F /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A748FC18B8BDEE0007BE5F /* LogInViewController.m */; };
 		75A748FF18B8BDEE0007BE5F /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */; };
 /* End PBXBuildFile section */
@@ -239,6 +245,12 @@
 		758D8A3318D4455B00FC1631 /* NXOAuth2TrustDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXOAuth2TrustDelegate.h; sourceTree = "<group>"; };
 		758D8A3418D4455B00FC1631 /* OAuth2Client_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuth2Client_Prefix.pch; sourceTree = "<group>"; };
 		758D8A5118D4464B00FC1631 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		758D8A5318D4484D00FC1631 /* TopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
+		758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopSeriesCell.xib; sourceTree = "<group>"; };
+		758D8A5718D44D5000FC1631 /* TopUsersCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopUsersCell.xib; sourceTree = "<group>"; };
+		758D8A5918D44F8000FC1631 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
+		758D8A5D18D455C100FC1631 /* ComposeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeView.xib; sourceTree = "<group>"; };
+		758D8A5F18D4595200FC1631 /* UserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserView.xib; sourceTree = "<group>"; };
 		75A748FB18B8BDEE0007BE5F /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		75A748FC18B8BDEE0007BE5F /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
@@ -323,6 +335,12 @@
 				75878A6218C1F21200627BE3 /* BazarViewController.m */,
 				75878A6318C1F21200627BE3 /* BazarViewController.xib */,
 				75878A6618C1F40100627BE3 /* BazaarCell.xib */,
+				758D8A5318D4484D00FC1631 /* TopViewController.xib */,
+				758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */,
+				758D8A5718D44D5000FC1631 /* TopUsersCell.xib */,
+				758D8A5918D44F8000FC1631 /* MessageViewController.xib */,
+				758D8A5D18D455C100FC1631 /* ComposeView.xib */,
+				758D8A5F18D4595200FC1631 /* UserView.xib */,
 			);
 			path = WoUSO;
 			sourceTree = "<group>";
@@ -580,6 +598,7 @@
 			files = (
 				75878A3D18C1E86A00627BE3 /* coins.png in Resources */,
 				75878A4F18C1E86A00627BE3 /* placeholder_frame.png in Resources */,
+				758D8A5418D4484D00FC1631 /* TopViewController.xib in Resources */,
 				7528A1401885EB490011A4F7 /* InfoPlist.strings in Resources */,
 				75878A6518C1F21200627BE3 /* BazarViewController.xib in Resources */,
 				75878A6718C1F40100627BE3 /* BazaarCell.xib in Resources */,
@@ -593,9 +612,11 @@
 				75878A4618C1E86A00627BE3 /* levels_cc_1.png in Resources */,
 				75878A5418C1E86A00627BE3 /* provocari.png in Resources */,
 				75878A5518C1E86A00627BE3 /* smallcoins.png in Resources */,
+				758D8A5A18D44F8000FC1631 /* MessageViewController.xib in Resources */,
 				75878A5F18C1E86A00627BE3 /* wand.png in Resources */,
 				758D8A3918D4455B00FC1631 /* OAuth2Client.framework-Info.plist in Resources */,
 				75878A5318C1E86A00627BE3 /* profiles_cc.png in Resources */,
+				758D8A5E18D455C100FC1631 /* ComposeView.xib in Resources */,
 				75878A5718C1E86A00627BE3 /* spell_green.png in Resources */,
 				758D8A3818D4455B00FC1631 /* NXOAuth2Client.podspec in Resources */,
 				75878A5918C1E86A00627BE3 /* spell_yellow.png in Resources */,
@@ -604,6 +625,7 @@
 				75878A3C18C1E86A00627BE3 /* clasament.png in Resources */,
 				75878A5018C1E86A00627BE3 /* points.png in Resources */,
 				75878A5618C1E86A00627BE3 /* spell_blue.png in Resources */,
+				758D8A5618D44B3200FC1631 /* TopSeriesCell.xib in Resources */,
 				75878A4A18C1E86A00627BE3 /* map.png in Resources */,
 				75878A5118C1E86A00627BE3 /* profiles_ca.png in Resources */,
 				75878A4718C1E86A00627BE3 /* list_bg.jpg in Resources */,
@@ -616,6 +638,7 @@
 				75878A3318C1E86A00627BE3 /* androidicon.png in Resources */,
 				75878A3918C1E86A00627BE3 /* button_bg.png in Resources */,
 				75878A5C18C1E86A00627BE3 /* v_progress_bar_empty.png in Resources */,
+				758D8A5818D44D5000FC1631 /* TopUsersCell.xib in Resources */,
 				75878A5D18C1E86A00627BE3 /* v_progress_bar_full.png in Resources */,
 				75878A3418C1E86A00627BE3 /* avatar.jpg in Resources */,
 				75878A4D18C1E86A00627BE3 /* mesaje.png in Resources */,
@@ -628,6 +651,7 @@
 				75878A4218C1E86A00627BE3 /* home_frame.png in Resources */,
 				75878A3218C1E86A00627BE3 /* androidicon_small.png in Resources */,
 				75878A4318C1E86A00627BE3 /* levelex.png in Resources */,
+				758D8A6018D4595200FC1631 /* UserView.xib in Resources */,
 				75878A6018C1E86A00627BE3 /* zburatorii.png in Resources */,
 				758D8A3618D4455B00FC1631 /* .gitmodules in Resources */,
 				75878A0118C1E5E200627BE3 /* HomeViewController.xib in Resources */,
