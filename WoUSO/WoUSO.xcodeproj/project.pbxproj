@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7517DC6D18D8C41D00E31BC6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7517DC6C18D8C41D00E31BC6 /* SystemConfiguration.framework */; };
 		7528A1361885EB480011A4F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528A1351885EB480011A4F7 /* Foundation.framework */; };
 		7528A1381885EB480011A4F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528A1371885EB480011A4F7 /* CoreGraphics.framework */; };
 		7528A13A1885EB480011A4F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528A1391885EB480011A4F7 /* UIKit.framework */; };
@@ -19,13 +20,13 @@
 		7528A1511885EB490011A4F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528A1391885EB480011A4F7 /* UIKit.framework */; };
 		7528A1591885EB490011A4F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7528A1571885EB490011A4F7 /* InfoPlist.strings */; };
 		7528A15B1885EB490011A4F7 /* WoUSOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7528A15A1885EB490011A4F7 /* WoUSOTests.m */; };
-		7539BA3E18D4572900E067CB /* GTMOAuth.framework-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7539BA2718D4572900E067CB /* GTMOAuth.framework-Info.plist */; };
-		7539BA3F18D4572900E067CB /* GTMOAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 7539BA2C18D4572900E067CB /* GTMOAuthAuthentication.m */; };
-		7539BA4018D4572900E067CB /* GTMOAuthSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 7539BA2E18D4572900E067CB /* GTMOAuthSignIn.m */; };
-		7539BA4318D4572900E067CB /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7539BA3318D4572900E067CB /* ReleaseNotes.txt */; };
-		7539BA4718D4572900E067CB /* UnitTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7539BA3D18D4572900E067CB /* UnitTests-Info.plist */; };
-		7539BA5A18D45C5200E067CB /* GTMOAuthViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7539BA5818D45C5200E067CB /* GTMOAuthViewControllerTouch.m */; };
-		7539BA5B18D45C5200E067CB /* GTMOAuthViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7539BA5918D45C5200E067CB /* GTMOAuthViewTouch.xib */; };
+		7531E39718E6C7E2001B1647 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531E39618E6C7E2001B1647 /* TopViewController.m */; };
+		7531E39A18E6C83A001B1647 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531E39918E6C83A001B1647 /* MessageViewController.m */; };
+		7531E39D18E6C863001B1647 /* UserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531E39C18E6C863001B1647 /* UserView.m */; };
+		7531E3A018E6C8A5001B1647 /* ComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531E39F18E6C8A5001B1647 /* ComposeView.m */; };
+		7531E3A318E6CB9E001B1647 /* ChallengesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531E3A218E6CB9E001B1647 /* ChallengesViewController.m */; };
+		7531E3A518E6CD60001B1647 /* ChallengesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7531E3A418E6CD60001B1647 /* ChallengesViewController.xib */; };
+		754927CD18EFF68900863D5D /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 754927CC18EFF68900863D5D /* left_arrow.png */; };
 		758789F618C1E52700627BE3 /* UserSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758789F418C1E52700627BE3 /* UserSettingsViewController.m */; };
 		758789F718C1E52700627BE3 /* UserSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758789F518C1E52700627BE3 /* UserSettingsViewController.xib */; };
 		75878A0018C1E5E200627BE3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758789FE18C1E5E200627BE3 /* HomeViewController.m */; };
@@ -78,6 +79,11 @@
 		75878A6418C1F21200627BE3 /* BazarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75878A6218C1F21200627BE3 /* BazarViewController.m */; };
 		75878A6518C1F21200627BE3 /* BazarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75878A6318C1F21200627BE3 /* BazarViewController.xib */; };
 		75878A6718C1F40100627BE3 /* BazaarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75878A6618C1F40100627BE3 /* BazaarCell.xib */; };
+		75890E0F18D9BB2F000CB17C /* GTMOAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 75890E0C18D9BB2F000CB17C /* GTMOAuthAuthentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75890E1018D9BB2F000CB17C /* GTMOAuthSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 75890E0E18D9BB2F000CB17C /* GTMOAuthSignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75890E1318D9BB5B000CB17C /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 75890E1218D9BB5B000CB17C /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75890E1718D9BB73000CB17C /* GTMOAuthViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 75890E1518D9BB73000CB17C /* GTMOAuthViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		75890E1818D9BB73000CB17C /* GTMOAuthViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75890E1618D9BB73000CB17C /* GTMOAuthViewTouch.xib */; };
 		758D8A5218D4464B00FC1631 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758D8A5118D4464B00FC1631 /* Security.framework */; };
 		758D8A5418D4484D00FC1631 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5318D4484D00FC1631 /* TopViewController.xib */; };
 		758D8A5618D44B3200FC1631 /* TopSeriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */; };
@@ -85,8 +91,10 @@
 		758D8A5A18D44F8000FC1631 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5918D44F8000FC1631 /* MessageViewController.xib */; };
 		758D8A5E18D455C100FC1631 /* ComposeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5D18D455C100FC1631 /* ComposeView.xib */; };
 		758D8A6018D4595200FC1631 /* UserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5F18D4595200FC1631 /* UserView.xib */; };
+		759C4D5C18D9121200229192 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 759C4D5B18D9121200229192 /* TDOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		75A748FE18B8BDEE0007BE5F /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A748FC18B8BDEE0007BE5F /* LogInViewController.m */; };
 		75A748FF18B8BDEE0007BE5F /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */; };
+		75E1EE0518F0042F0097A86F /* ButtonMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E1EE0418F0042F0097A86F /* ButtonMenu.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,44 +105,10 @@
 			remoteGlobalIDString = 7528A1311885EB480011A4F7;
 			remoteInfo = WoUSO;
 		};
-		7539BA4D18D4572900E067CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7539BA2818D4572900E067CB /* GTMOAuth.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = OAuthTouchStaticLib;
-		};
-		7539BA4F18D4572900E067CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7539BA2818D4572900E067CB /* GTMOAuth.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F35139213EA1FF500E12259;
-			remoteInfo = OAuthTouchNonGoogleStaticLib;
-		};
-		7539BA5118D4572900E067CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7539BA2818D4572900E067CB /* GTMOAuth.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F3513AD13EA200500E12259;
-			remoteInfo = GTMOAuthNonGoogle.framework;
-		};
-		7539BA5318D4572900E067CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7539BA2818D4572900E067CB /* GTMOAuth.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4F7249AD122483B8001A4AD0;
-			remoteInfo = UnitTests;
-		};
-		7539BA5518D45A6300E067CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7539BA2818D4572900E067CB /* GTMOAuth.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = OAuthTouchStaticLib;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7517DC6C18D8C41D00E31BC6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7528A1321885EB480011A4F7 /* WoUSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoUSO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7528A1351885EB480011A4F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7528A1371885EB480011A4F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -151,17 +125,18 @@
 		7528A1561885EB490011A4F7 /* WoUSOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WoUSOTests-Info.plist"; sourceTree = "<group>"; };
 		7528A1581885EB490011A4F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7528A15A1885EB490011A4F7 /* WoUSOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoUSOTests.m; sourceTree = "<group>"; };
-		7539BA2718D4572900E067CB /* GTMOAuth.framework-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GTMOAuth.framework-Info.plist"; sourceTree = "<group>"; };
-		7539BA2818D4572900E067CB /* GTMOAuth.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = GTMOAuth.xcodeproj; sourceTree = "<group>"; };
-		7539BA2B18D4572900E067CB /* GTMOAuthAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthAuthentication.h; sourceTree = "<group>"; };
-		7539BA2C18D4572900E067CB /* GTMOAuthAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthAuthentication.m; sourceTree = "<group>"; };
-		7539BA2D18D4572900E067CB /* GTMOAuthSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthSignIn.h; sourceTree = "<group>"; };
-		7539BA2E18D4572900E067CB /* GTMOAuthSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthSignIn.m; sourceTree = "<group>"; };
-		7539BA3318D4572900E067CB /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
-		7539BA3D18D4572900E067CB /* UnitTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
-		7539BA5718D45C5200E067CB /* GTMOAuthViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthViewControllerTouch.h; sourceTree = "<group>"; };
-		7539BA5818D45C5200E067CB /* GTMOAuthViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthViewControllerTouch.m; sourceTree = "<group>"; };
-		7539BA5918D45C5200E067CB /* GTMOAuthViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuthViewTouch.xib; sourceTree = "<group>"; };
+		7531E39518E6C7E2001B1647 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
+		7531E39618E6C7E2001B1647 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
+		7531E39818E6C83A001B1647 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		7531E39918E6C83A001B1647 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		7531E39B18E6C863001B1647 /* UserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserView.h; sourceTree = "<group>"; };
+		7531E39C18E6C863001B1647 /* UserView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserView.m; sourceTree = "<group>"; };
+		7531E39E18E6C8A5001B1647 /* ComposeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComposeView.h; sourceTree = "<group>"; };
+		7531E39F18E6C8A5001B1647 /* ComposeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComposeView.m; sourceTree = "<group>"; };
+		7531E3A118E6CB9E001B1647 /* ChallengesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengesViewController.h; sourceTree = "<group>"; };
+		7531E3A218E6CB9E001B1647 /* ChallengesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengesViewController.m; sourceTree = "<group>"; };
+		7531E3A418E6CD60001B1647 /* ChallengesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChallengesViewController.xib; sourceTree = "<group>"; };
+		754927CC18EFF68900863D5D /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow.png; sourceTree = "<group>"; };
 		758789F318C1E52700627BE3 /* UserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSettingsViewController.h; sourceTree = "<group>"; };
 		758789F418C1E52700627BE3 /* UserSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettingsViewController.m; sourceTree = "<group>"; };
 		758789F518C1E52700627BE3 /* UserSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserSettingsViewController.xib; sourceTree = "<group>"; };
@@ -217,6 +192,15 @@
 		75878A6218C1F21200627BE3 /* BazarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BazarViewController.m; sourceTree = "<group>"; };
 		75878A6318C1F21200627BE3 /* BazarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BazarViewController.xib; sourceTree = "<group>"; };
 		75878A6618C1F40100627BE3 /* BazaarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BazaarCell.xib; sourceTree = "<group>"; };
+		75890E0B18D9BB2F000CB17C /* GTMOAuthAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthAuthentication.h; sourceTree = "<group>"; };
+		75890E0C18D9BB2F000CB17C /* GTMOAuthAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthAuthentication.m; sourceTree = "<group>"; };
+		75890E0D18D9BB2F000CB17C /* GTMOAuthSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthSignIn.h; sourceTree = "<group>"; };
+		75890E0E18D9BB2F000CB17C /* GTMOAuthSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthSignIn.m; sourceTree = "<group>"; };
+		75890E1118D9BB5B000CB17C /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
+		75890E1218D9BB5B000CB17C /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
+		75890E1418D9BB73000CB17C /* GTMOAuthViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthViewControllerTouch.h; sourceTree = "<group>"; };
+		75890E1518D9BB73000CB17C /* GTMOAuthViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthViewControllerTouch.m; sourceTree = "<group>"; };
+		75890E1618D9BB73000CB17C /* GTMOAuthViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuthViewTouch.xib; sourceTree = "<group>"; };
 		758D8A5118D4464B00FC1631 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		758D8A5318D4484D00FC1631 /* TopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
 		758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopSeriesCell.xib; sourceTree = "<group>"; };
@@ -224,9 +208,12 @@
 		758D8A5918D44F8000FC1631 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
 		758D8A5D18D455C100FC1631 /* ComposeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeView.xib; sourceTree = "<group>"; };
 		758D8A5F18D4595200FC1631 /* UserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserView.xib; sourceTree = "<group>"; };
+		759C4D5A18D9121200229192 /* TDOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOAuth.h; sourceTree = "<group>"; };
+		759C4D5B18D9121200229192 /* TDOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOAuth.m; sourceTree = "<group>"; };
 		75A748FB18B8BDEE0007BE5F /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		75A748FC18B8BDEE0007BE5F /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
+		75E1EE0418F0042F0097A86F /* ButtonMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonMenu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +221,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7517DC6D18D8C41D00E31BC6 /* SystemConfiguration.framework in Frameworks */,
 				758D8A5218D4464B00FC1631 /* Security.framework in Frameworks */,
 				7528A1381885EB480011A4F7 /* CoreGraphics.framework in Frameworks */,
 				7528A13A1885EB480011A4F7 /* UIKit.framework in Frameworks */,
@@ -257,7 +245,6 @@
 		7528A1291885EB480011A4F7 = {
 			isa = PBXGroup;
 			children = (
-				7539BA2618D4572900E067CB /* Source */,
 				7528A13B1885EB480011A4F7 /* WoUSO */,
 				7528A1541885EB490011A4F7 /* WoUSOTests */,
 				7528A1341885EB480011A4F7 /* Frameworks */,
@@ -277,6 +264,7 @@
 		7528A1341885EB480011A4F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7517DC6C18D8C41D00E31BC6 /* SystemConfiguration.framework */,
 				758D8A5118D4464B00FC1631 /* Security.framework */,
 				7528A1351885EB480011A4F7 /* Foundation.framework */,
 				7528A1371885EB480011A4F7 /* CoreGraphics.framework */,
@@ -289,6 +277,7 @@
 		7528A13B1885EB480011A4F7 /* WoUSO */ = {
 			isa = PBXGroup;
 			children = (
+				759C4D5918D911FA00229192 /* OAuth */,
 				75878A0218C1E81E00627BE3 /* IMG */,
 				7528A1441885EB490011A4F7 /* AppDelegate.h */,
 				7528A1451885EB490011A4F7 /* AppDelegate.m */,
@@ -308,11 +297,22 @@
 				75878A6318C1F21200627BE3 /* BazarViewController.xib */,
 				75878A6618C1F40100627BE3 /* BazaarCell.xib */,
 				758D8A5318D4484D00FC1631 /* TopViewController.xib */,
+				7531E39518E6C7E2001B1647 /* TopViewController.h */,
+				7531E39618E6C7E2001B1647 /* TopViewController.m */,
 				758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */,
 				758D8A5718D44D5000FC1631 /* TopUsersCell.xib */,
 				758D8A5918D44F8000FC1631 /* MessageViewController.xib */,
-				758D8A5D18D455C100FC1631 /* ComposeView.xib */,
+				7531E39818E6C83A001B1647 /* MessageViewController.h */,
+				7531E39918E6C83A001B1647 /* MessageViewController.m */,
 				758D8A5F18D4595200FC1631 /* UserView.xib */,
+				7531E39B18E6C863001B1647 /* UserView.h */,
+				7531E39C18E6C863001B1647 /* UserView.m */,
+				758D8A5D18D455C100FC1631 /* ComposeView.xib */,
+				7531E39E18E6C8A5001B1647 /* ComposeView.h */,
+				7531E39F18E6C8A5001B1647 /* ComposeView.m */,
+				7531E3A118E6CB9E001B1647 /* ChallengesViewController.h */,
+				7531E3A218E6CB9E001B1647 /* ChallengesViewController.m */,
+				7531E3A418E6CD60001B1647 /* ChallengesViewController.xib */,
 			);
 			path = WoUSO;
 			sourceTree = "<group>";
@@ -346,38 +346,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		7539BA2618D4572900E067CB /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				7539BA5718D45C5200E067CB /* GTMOAuthViewControllerTouch.h */,
-				7539BA5818D45C5200E067CB /* GTMOAuthViewControllerTouch.m */,
-				7539BA5918D45C5200E067CB /* GTMOAuthViewTouch.xib */,
-				7539BA2718D4572900E067CB /* GTMOAuth.framework-Info.plist */,
-				7539BA2818D4572900E067CB /* GTMOAuth.xcodeproj */,
-				7539BA2B18D4572900E067CB /* GTMOAuthAuthentication.h */,
-				7539BA2C18D4572900E067CB /* GTMOAuthAuthentication.m */,
-				7539BA2D18D4572900E067CB /* GTMOAuthSignIn.h */,
-				7539BA2E18D4572900E067CB /* GTMOAuthSignIn.m */,
-				7539BA3318D4572900E067CB /* ReleaseNotes.txt */,
-				7539BA3D18D4572900E067CB /* UnitTests-Info.plist */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		7539BA2918D4572900E067CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7539BA4E18D4572900E067CB /* libOAuthTouch.a */,
-				7539BA5018D4572900E067CB /* libOAuthTouch.a */,
-				7539BA5218D4572900E067CB /* GTMOAuth */,
-				7539BA5418D4572900E067CB /* UnitTests.octest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		75878A0218C1E81E00627BE3 /* IMG */ = {
 			isa = PBXGroup;
 			children = (
+				75E1EE0418F0042F0097A86F /* ButtonMenu.png */,
+				754927CC18EFF68900863D5D /* left_arrow.png */,
 				75878A0318C1E86A00627BE3 /* androidicon_small.png */,
 				75878A0418C1E86A00627BE3 /* androidicon.png */,
 				75878A0518C1E86A00627BE3 /* avatar.jpg */,
@@ -427,6 +400,24 @@
 			name = IMG;
 			sourceTree = "<group>";
 		};
+		759C4D5918D911FA00229192 /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				75890E1418D9BB73000CB17C /* GTMOAuthViewControllerTouch.h */,
+				75890E1518D9BB73000CB17C /* GTMOAuthViewControllerTouch.m */,
+				75890E1618D9BB73000CB17C /* GTMOAuthViewTouch.xib */,
+				75890E1118D9BB5B000CB17C /* GTMHTTPFetcher.h */,
+				75890E1218D9BB5B000CB17C /* GTMHTTPFetcher.m */,
+				75890E0B18D9BB2F000CB17C /* GTMOAuthAuthentication.h */,
+				75890E0C18D9BB2F000CB17C /* GTMOAuthAuthentication.m */,
+				75890E0D18D9BB2F000CB17C /* GTMOAuthSignIn.h */,
+				75890E0E18D9BB2F000CB17C /* GTMOAuthSignIn.m */,
+				759C4D5A18D9121200229192 /* TDOAuth.h */,
+				759C4D5B18D9121200229192 /* TDOAuth.m */,
+			);
+			name = OAuth;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -441,7 +432,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7539BA5618D45A6300E067CB /* PBXTargetDependency */,
 			);
 			name = WoUSO;
 			productName = WoUSO;
@@ -490,12 +480,6 @@
 			mainGroup = 7528A1291885EB480011A4F7;
 			productRefGroup = 7528A1331885EB480011A4F7 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 7539BA2918D4572900E067CB /* Products */;
-					ProjectRef = 7539BA2818D4572900E067CB /* GTMOAuth.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				7528A1311885EB480011A4F7 /* WoUSO */,
@@ -503,38 +487,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		7539BA4E18D4572900E067CB /* libOAuthTouch.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libOAuthTouch.a;
-			remoteRef = 7539BA4D18D4572900E067CB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7539BA5018D4572900E067CB /* libOAuthTouch.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libOAuthTouch.a;
-			remoteRef = 7539BA4F18D4572900E067CB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7539BA5218D4572900E067CB /* GTMOAuth */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			name = GTMOAuth;
-			path = GTMOAuth.framework;
-			remoteRef = 7539BA5118D4572900E067CB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		7539BA5418D4572900E067CB /* UnitTests.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = UnitTests.octest;
-			remoteRef = 7539BA5318D4572900E067CB /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7528A1301885EB480011A4F7 /* Resources */ = {
@@ -547,9 +499,7 @@
 				7528A1401885EB490011A4F7 /* InfoPlist.strings in Resources */,
 				75878A6518C1F21200627BE3 /* BazarViewController.xib in Resources */,
 				75878A6718C1F40100627BE3 /* BazaarCell.xib in Resources */,
-				7539BA3E18D4572900E067CB /* GTMOAuth.framework-Info.plist in Resources */,
 				75878A4E18C1E86A00627BE3 /* messages.png in Resources */,
-				7539BA4718D4572900E067CB /* UnitTests-Info.plist in Resources */,
 				75878A3618C1E86A00627BE3 /* bazar.png in Resources */,
 				75878A4118C1E86A00627BE3 /* gold.png in Resources */,
 				75878A3718C1E86A00627BE3 /* bg.png in Resources */,
@@ -566,6 +516,7 @@
 				75878A5718C1E86A00627BE3 /* spell_green.png in Resources */,
 				75878A5918C1E86A00627BE3 /* spell_yellow.png in Resources */,
 				75878A5B18C1E86A00627BE3 /* tops.png in Resources */,
+				75890E1818D9BB73000CB17C /* GTMOAuthViewTouch.xib in Resources */,
 				75878A5A18C1E86A00627BE3 /* tintasii.png in Resources */,
 				75878A3C18C1E86A00627BE3 /* clasament.png in Resources */,
 				75878A5018C1E86A00627BE3 /* points.png in Resources */,
@@ -580,6 +531,7 @@
 				75878A5218C1E86A00627BE3 /* profiles_cb.png in Resources */,
 				75878A3818C1E86A00627BE3 /* button_bg_pressed.png in Resources */,
 				75878A3B18C1E86A00627BE3 /* challenges.png in Resources */,
+				7531E3A518E6CD60001B1647 /* ChallengesViewController.xib in Resources */,
 				75878A3318C1E86A00627BE3 /* androidicon.png in Resources */,
 				75878A3918C1E86A00627BE3 /* button_bg.png in Resources */,
 				75878A5C18C1E86A00627BE3 /* v_progress_bar_empty.png in Resources */,
@@ -589,6 +541,7 @@
 				75878A4D18C1E86A00627BE3 /* mesaje.png in Resources */,
 				75A748FF18B8BDEE0007BE5F /* LogInViewController.xib in Resources */,
 				75878A5E18C1E86A00627BE3 /* vraja.png in Resources */,
+				75E1EE0518F0042F0097A86F /* ButtonMenu.png in Resources */,
 				75878A4818C1E86A00627BE3 /* list_divider.gif in Resources */,
 				75878A5818C1E86A00627BE3 /* spell_purple.png in Resources */,
 				75878A4218C1E86A00627BE3 /* home_frame.png in Resources */,
@@ -599,8 +552,7 @@
 				75878A0118C1E5E200627BE3 /* HomeViewController.xib in Resources */,
 				75878A4918C1E86A00627BE3 /* logo.png in Resources */,
 				75878A3A18C1E86A00627BE3 /* cataratori.png in Resources */,
-				7539BA4318D4572900E067CB /* ReleaseNotes.txt in Resources */,
-				7539BA5B18D45C5200E067CB /* GTMOAuthViewTouch.xib in Resources */,
+				754927CD18EFF68900863D5D /* left_arrow.png in Resources */,
 				75878A4018C1E86A00627BE3 /* fundal.png in Resources */,
 				75878A3518C1E86A00627BE3 /* avataroverlay.png in Resources */,
 			);
@@ -622,13 +574,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				7528A1461885EB490011A4F7 /* AppDelegate.m in Sources */,
+				75890E1018D9BB2F000CB17C /* GTMOAuthSignIn.m in Sources */,
+				7531E39A18E6C83A001B1647 /* MessageViewController.m in Sources */,
+				7531E39D18E6C863001B1647 /* UserView.m in Sources */,
 				7528A1421885EB490011A4F7 /* main.m in Sources */,
-				7539BA3F18D4572900E067CB /* GTMOAuthAuthentication.m in Sources */,
 				758789F618C1E52700627BE3 /* UserSettingsViewController.m in Sources */,
-				7539BA4018D4572900E067CB /* GTMOAuthSignIn.m in Sources */,
-				7539BA5A18D45C5200E067CB /* GTMOAuthViewControllerTouch.m in Sources */,
+				75890E1718D9BB73000CB17C /* GTMOAuthViewControllerTouch.m in Sources */,
+				75890E1318D9BB5B000CB17C /* GTMHTTPFetcher.m in Sources */,
 				75A748FE18B8BDEE0007BE5F /* LogInViewController.m in Sources */,
+				75890E0F18D9BB2F000CB17C /* GTMOAuthAuthentication.m in Sources */,
+				7531E3A318E6CB9E001B1647 /* ChallengesViewController.m in Sources */,
+				7531E39718E6C7E2001B1647 /* TopViewController.m in Sources */,
+				759C4D5C18D9121200229192 /* TDOAuth.m in Sources */,
 				75878A0018C1E5E200627BE3 /* HomeViewController.m in Sources */,
+				7531E3A018E6C8A5001B1647 /* ComposeView.m in Sources */,
 				75878A6418C1F21200627BE3 /* BazarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -648,11 +607,6 @@
 			isa = PBXTargetDependency;
 			target = 7528A1311885EB480011A4F7 /* WoUSO */;
 			targetProxy = 7528A1521885EB490011A4F7 /* PBXContainerItemProxy */;
-		};
-		7539BA5618D45A6300E067CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OAuthTouchStaticLib;
-			targetProxy = 7539BA5518D45A6300E067CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

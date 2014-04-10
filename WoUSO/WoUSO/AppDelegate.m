@@ -9,7 +9,6 @@
 #import "AppDelegate.h"
 #import "LogInViewController.h"
 #import "HomeViewController.h"
-#include "NXOAuth2.h"
 
 @implementation AppDelegate
 
@@ -19,6 +18,7 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     HomeViewController * controller = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
+   // LogInViewController * controller = [[LogInViewController alloc] initWithNibName:@"LogInViewController" bundle:nil];
     UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:controller];
     navController.navigationBarHidden = YES;
     self.window.rootViewController = navController;

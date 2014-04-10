@@ -11,6 +11,11 @@
 @interface HomeViewController : UIViewController
 
 -(IBAction)showBazaar;
+-(IBAction)showChallenges;
+-(IBAction)showMessages;
+-(IBAction)showTop;
+-(IBAction)showMenu;
 
+@property (strong,nonatomic) IBOutlet UIView * menu ;
 
 @end

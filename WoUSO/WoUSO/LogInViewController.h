@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LogInViewController : UITableViewController
+@interface LogInViewController : UIViewController <UIWebViewDelegate>
 
 @property (strong, nonatomic) IBOutlet UIWebView * webView;
+@property (strong, nonatomic) NSString * token;
+@property (strong, nonatomic) NSString *tokenSecret;
 
 
 @end
