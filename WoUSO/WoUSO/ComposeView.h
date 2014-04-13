@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ApiHelper.h"
 
-@interface ComposeView : UIViewController
+@interface ComposeView : UIViewController <UITextViewDelegate, UIAlertViewDelegate>
 
 @property (strong,nonatomic) IBOutlet UIButton *sendButton, *cancelButton ;
+@property (strong, nonatomic) ApiHelper * apiHelper;
+@property (strong, nonatomic) NSString * destinationId;
+@property (strong, nonatomic) NSString * receiverName;
+@property (strong, nonatomic) IBOutlet UITextField * toField;
+@property (strong, nonatomic) IBOutlet UITextField * subjectField;
+@property (strong, nonatomic) IBOutlet UITextView * messageField;
 
 -(IBAction)cancel;
 -(IBAction)send;

@@ -16,9 +16,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    HomeViewController * controller = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
-   // LogInViewController * controller = [[LogInViewController alloc] initWithNibName:@"LogInViewController" bundle:nil];
+    self.window.backgroundColor = [UIColor blackColor];
+    NSUserDefaults * userDefaults = [[NSUserDefaults alloc] init];
+    NSString * accessToken = [userDefaults objectForKey:@"oauth_token"];
+    UIViewController * controller = [[HomeViewController alloc] initWithNibName:@"HomeViewController" bundle:nil];
     UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:controller];
     navController.navigationBarHidden = YES;
     self.window.rootViewController = navController;

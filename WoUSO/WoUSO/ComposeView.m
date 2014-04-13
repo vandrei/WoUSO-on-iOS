@@ -20,6 +20,7 @@
     if (self) {
         // Custom initialization
     }
+    self.apiHelper = [[ApiHelper alloc] init];
     return self;
 }
 
@@ -30,6 +31,7 @@
     self.sendButton.layer.cornerRadius = 10;
     self.cancelButton.layer.borderWidth = 0.0;
     self.cancelButton.layer.cornerRadius = 10;
+    self.toField.text = self.receiverName;
     // Do any additional setup after loading the view.
 }
 
@@ -44,9 +46,40 @@
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
+    
+    if([text isEqualToString:@"\n"]) {
+        [textView resignFirstResponder];
+        return NO;
+    }
+    
+    return YES;
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if ([alertView.message isEqualToString:@"Mesaj trimis!"])
+        [self.navigationController popViewControllerAnimated:YES];
+}
+
 -(void)send
 {
-    [self cancel];
+    NSString * message = self.messageField.text;
+    NSString * receiver = self.toField.text;
+    NSString * subject = self.subjectField.text;
+    BOOL sentOK = false;
+    if (message != nil && receiver != nil)
+        sentOK = [self.apiHelper sendMessage:message toReceiver:self.destinationId withSubject:subject];
+    NSString * responseMessage;
+    if (sentOK)
+        responseMessage = @"Mesaj trimis!";
+    else
+        responseMessage = @"Mesajul nu a putut fi trimis!";
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Mesagerie" message: responseMessage
+                                                   delegate: self
+                                          cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
+    
 }
 
 

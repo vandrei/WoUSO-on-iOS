@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ApiHelper.h"
 
 @interface TopViewController : UIViewController
 
@@ -19,4 +20,7 @@
 @property (strong,nonatomic) IBOutlet UIView *buttonSelected2;
 @property (strong,nonatomic) IBOutlet UIView *buttonSelected3;
 @property (strong, nonatomic) IBOutlet UITableView * tableView;
+@property (strong, nonatomic) NSArray * tableContent;
+@property (strong, nonatomic) ApiHelper * helper;
+
 @end

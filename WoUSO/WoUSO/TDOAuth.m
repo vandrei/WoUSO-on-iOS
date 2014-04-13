@@ -52,7 +52,7 @@ int TDOAuthUTCTimeOffset = 0;
 
 @implementation NSNumber (TweetDeck)
 - (id)pcen {
-    // We permit NSNumbers as parameters, so we need to handle this function call
+    // We permit NSNumbers as parameters, so we need to handle this functionl
     return [self stringValue];
 }
 @end
@@ -126,7 +126,7 @@ static NSString* timestamp() {
               nonce(),      @"oauth_nonce",
               timestamp(),  @"oauth_timestamp",
               @"1.0",       @"oauth_version",
-              @"HMAC-SHA1", @"oauth_signature_method",
+              @"PLAINTEXT", @"oauth_signature_method", // PLAINTEXT
               accessToken,  @"oauth_token",
               // LEAVE accessToken last or you'll break XAuth attempts
               nil];
@@ -167,7 +167,7 @@ static NSString* timestamp() {
     [header add:@"OAuth "];
     for (NSString *key in params.allKeys)
         [[[[header add:key] add:@"=\""] add:[params objectForKey:key]] add:@"\", "];
-    [[[header add:@"oauth_signature=\""] add:self.signature.pcen] add:@"\""];
+    [[[header add:@"oauth_signature=\""] add:/*self.signature.pcen*/@"secret&"] add:@"\""];
     return header;
 }
 

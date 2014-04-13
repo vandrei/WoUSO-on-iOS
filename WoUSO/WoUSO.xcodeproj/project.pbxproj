@@ -26,6 +26,8 @@
 		7531E3A018E6C8A5001B1647 /* ComposeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531E39F18E6C8A5001B1647 /* ComposeView.m */; };
 		7531E3A318E6CB9E001B1647 /* ChallengesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531E3A218E6CB9E001B1647 /* ChallengesViewController.m */; };
 		7531E3A518E6CD60001B1647 /* ChallengesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7531E3A418E6CD60001B1647 /* ChallengesViewController.xib */; };
+		753C985618F7FB4B00FC4694 /* ApiHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 753C985518F7FB4B00FC4694 /* ApiHelper.m */; };
+		7545B4CC18F87DFE008B1914 /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7545B4CB18F87DFE008B1914 /* menu_icon.png */; };
 		754927CD18EFF68900863D5D /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 754927CC18EFF68900863D5D /* left_arrow.png */; };
 		758789F618C1E52700627BE3 /* UserSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 758789F418C1E52700627BE3 /* UserSettingsViewController.m */; };
 		758789F718C1E52700627BE3 /* UserSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758789F518C1E52700627BE3 /* UserSettingsViewController.xib */; };
@@ -79,11 +81,6 @@
 		75878A6418C1F21200627BE3 /* BazarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75878A6218C1F21200627BE3 /* BazarViewController.m */; };
 		75878A6518C1F21200627BE3 /* BazarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75878A6318C1F21200627BE3 /* BazarViewController.xib */; };
 		75878A6718C1F40100627BE3 /* BazaarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75878A6618C1F40100627BE3 /* BazaarCell.xib */; };
-		75890E0F18D9BB2F000CB17C /* GTMOAuthAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 75890E0C18D9BB2F000CB17C /* GTMOAuthAuthentication.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75890E1018D9BB2F000CB17C /* GTMOAuthSignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 75890E0E18D9BB2F000CB17C /* GTMOAuthSignIn.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75890E1318D9BB5B000CB17C /* GTMHTTPFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 75890E1218D9BB5B000CB17C /* GTMHTTPFetcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75890E1718D9BB73000CB17C /* GTMOAuthViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 75890E1518D9BB73000CB17C /* GTMOAuthViewControllerTouch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		75890E1818D9BB73000CB17C /* GTMOAuthViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75890E1618D9BB73000CB17C /* GTMOAuthViewTouch.xib */; };
 		758D8A5218D4464B00FC1631 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 758D8A5118D4464B00FC1631 /* Security.framework */; };
 		758D8A5418D4484D00FC1631 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5318D4484D00FC1631 /* TopViewController.xib */; };
 		758D8A5618D44B3200FC1631 /* TopSeriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */; };
@@ -91,6 +88,7 @@
 		758D8A5A18D44F8000FC1631 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5918D44F8000FC1631 /* MessageViewController.xib */; };
 		758D8A5E18D455C100FC1631 /* ComposeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5D18D455C100FC1631 /* ComposeView.xib */; };
 		758D8A6018D4595200FC1631 /* UserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 758D8A5F18D4595200FC1631 /* UserView.xib */; };
+		7590A08018F9800C00FCD25B /* BazaarSummary.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7590A07F18F9800C00FCD25B /* BazaarSummary.xib */; };
 		759C4D5C18D9121200229192 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 759C4D5B18D9121200229192 /* TDOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		75A748FE18B8BDEE0007BE5F /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A748FC18B8BDEE0007BE5F /* LogInViewController.m */; };
 		75A748FF18B8BDEE0007BE5F /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */; };
@@ -136,6 +134,9 @@
 		7531E3A118E6CB9E001B1647 /* ChallengesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengesViewController.h; sourceTree = "<group>"; };
 		7531E3A218E6CB9E001B1647 /* ChallengesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengesViewController.m; sourceTree = "<group>"; };
 		7531E3A418E6CD60001B1647 /* ChallengesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChallengesViewController.xib; sourceTree = "<group>"; };
+		753C985418F7FB4B00FC4694 /* ApiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiHelper.h; sourceTree = "<group>"; };
+		753C985518F7FB4B00FC4694 /* ApiHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiHelper.m; sourceTree = "<group>"; };
+		7545B4CB18F87DFE008B1914 /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
 		754927CC18EFF68900863D5D /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow.png; sourceTree = "<group>"; };
 		758789F318C1E52700627BE3 /* UserSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserSettingsViewController.h; sourceTree = "<group>"; };
 		758789F418C1E52700627BE3 /* UserSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSettingsViewController.m; sourceTree = "<group>"; };
@@ -192,15 +193,6 @@
 		75878A6218C1F21200627BE3 /* BazarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BazarViewController.m; sourceTree = "<group>"; };
 		75878A6318C1F21200627BE3 /* BazarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BazarViewController.xib; sourceTree = "<group>"; };
 		75878A6618C1F40100627BE3 /* BazaarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BazaarCell.xib; sourceTree = "<group>"; };
-		75890E0B18D9BB2F000CB17C /* GTMOAuthAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthAuthentication.h; sourceTree = "<group>"; };
-		75890E0C18D9BB2F000CB17C /* GTMOAuthAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthAuthentication.m; sourceTree = "<group>"; };
-		75890E0D18D9BB2F000CB17C /* GTMOAuthSignIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthSignIn.h; sourceTree = "<group>"; };
-		75890E0E18D9BB2F000CB17C /* GTMOAuthSignIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthSignIn.m; sourceTree = "<group>"; };
-		75890E1118D9BB5B000CB17C /* GTMHTTPFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMHTTPFetcher.h; sourceTree = "<group>"; };
-		75890E1218D9BB5B000CB17C /* GTMHTTPFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMHTTPFetcher.m; sourceTree = "<group>"; };
-		75890E1418D9BB73000CB17C /* GTMOAuthViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuthViewControllerTouch.h; sourceTree = "<group>"; };
-		75890E1518D9BB73000CB17C /* GTMOAuthViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuthViewControllerTouch.m; sourceTree = "<group>"; };
-		75890E1618D9BB73000CB17C /* GTMOAuthViewTouch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTMOAuthViewTouch.xib; sourceTree = "<group>"; };
 		758D8A5118D4464B00FC1631 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		758D8A5318D4484D00FC1631 /* TopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
 		758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopSeriesCell.xib; sourceTree = "<group>"; };
@@ -208,6 +200,7 @@
 		758D8A5918D44F8000FC1631 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
 		758D8A5D18D455C100FC1631 /* ComposeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ComposeView.xib; sourceTree = "<group>"; };
 		758D8A5F18D4595200FC1631 /* UserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserView.xib; sourceTree = "<group>"; };
+		7590A07F18F9800C00FCD25B /* BazaarSummary.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BazaarSummary.xib; sourceTree = "<group>"; };
 		759C4D5A18D9121200229192 /* TDOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOAuth.h; sourceTree = "<group>"; };
 		759C4D5B18D9121200229192 /* TDOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOAuth.m; sourceTree = "<group>"; };
 		75A748FB18B8BDEE0007BE5F /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
@@ -277,7 +270,7 @@
 		7528A13B1885EB480011A4F7 /* WoUSO */ = {
 			isa = PBXGroup;
 			children = (
-				759C4D5918D911FA00229192 /* OAuth */,
+				759C4D5918D911FA00229192 /* WoUSO API */,
 				75878A0218C1E81E00627BE3 /* IMG */,
 				7528A1441885EB490011A4F7 /* AppDelegate.h */,
 				7528A1451885EB490011A4F7 /* AppDelegate.m */,
@@ -295,6 +288,7 @@
 				75878A6118C1F21200627BE3 /* BazarViewController.h */,
 				75878A6218C1F21200627BE3 /* BazarViewController.m */,
 				75878A6318C1F21200627BE3 /* BazarViewController.xib */,
+				7590A07F18F9800C00FCD25B /* BazaarSummary.xib */,
 				75878A6618C1F40100627BE3 /* BazaarCell.xib */,
 				758D8A5318D4484D00FC1631 /* TopViewController.xib */,
 				7531E39518E6C7E2001B1647 /* TopViewController.h */,
@@ -349,6 +343,7 @@
 		75878A0218C1E81E00627BE3 /* IMG */ = {
 			isa = PBXGroup;
 			children = (
+				7545B4CB18F87DFE008B1914 /* menu_icon.png */,
 				75E1EE0418F0042F0097A86F /* ButtonMenu.png */,
 				754927CC18EFF68900863D5D /* left_arrow.png */,
 				75878A0318C1E86A00627BE3 /* androidicon_small.png */,
@@ -400,22 +395,15 @@
 			name = IMG;
 			sourceTree = "<group>";
 		};
-		759C4D5918D911FA00229192 /* OAuth */ = {
+		759C4D5918D911FA00229192 /* WoUSO API */ = {
 			isa = PBXGroup;
 			children = (
-				75890E1418D9BB73000CB17C /* GTMOAuthViewControllerTouch.h */,
-				75890E1518D9BB73000CB17C /* GTMOAuthViewControllerTouch.m */,
-				75890E1618D9BB73000CB17C /* GTMOAuthViewTouch.xib */,
-				75890E1118D9BB5B000CB17C /* GTMHTTPFetcher.h */,
-				75890E1218D9BB5B000CB17C /* GTMHTTPFetcher.m */,
-				75890E0B18D9BB2F000CB17C /* GTMOAuthAuthentication.h */,
-				75890E0C18D9BB2F000CB17C /* GTMOAuthAuthentication.m */,
-				75890E0D18D9BB2F000CB17C /* GTMOAuthSignIn.h */,
-				75890E0E18D9BB2F000CB17C /* GTMOAuthSignIn.m */,
+				753C985418F7FB4B00FC4694 /* ApiHelper.h */,
+				753C985518F7FB4B00FC4694 /* ApiHelper.m */,
 				759C4D5A18D9121200229192 /* TDOAuth.h */,
 				759C4D5B18D9121200229192 /* TDOAuth.m */,
 			);
-			name = OAuth;
+			name = "WoUSO API";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -494,6 +482,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75878A3D18C1E86A00627BE3 /* coins.png in Resources */,
+				7545B4CC18F87DFE008B1914 /* menu_icon.png in Resources */,
 				75878A4F18C1E86A00627BE3 /* placeholder_frame.png in Resources */,
 				758D8A5418D4484D00FC1631 /* TopViewController.xib in Resources */,
 				7528A1401885EB490011A4F7 /* InfoPlist.strings in Resources */,
@@ -516,7 +505,6 @@
 				75878A5718C1E86A00627BE3 /* spell_green.png in Resources */,
 				75878A5918C1E86A00627BE3 /* spell_yellow.png in Resources */,
 				75878A5B18C1E86A00627BE3 /* tops.png in Resources */,
-				75890E1818D9BB73000CB17C /* GTMOAuthViewTouch.xib in Resources */,
 				75878A5A18C1E86A00627BE3 /* tintasii.png in Resources */,
 				75878A3C18C1E86A00627BE3 /* clasament.png in Resources */,
 				75878A5018C1E86A00627BE3 /* points.png in Resources */,
@@ -533,6 +521,7 @@
 				75878A3B18C1E86A00627BE3 /* challenges.png in Resources */,
 				7531E3A518E6CD60001B1647 /* ChallengesViewController.xib in Resources */,
 				75878A3318C1E86A00627BE3 /* androidicon.png in Resources */,
+				7590A08018F9800C00FCD25B /* BazaarSummary.xib in Resources */,
 				75878A3918C1E86A00627BE3 /* button_bg.png in Resources */,
 				75878A5C18C1E86A00627BE3 /* v_progress_bar_empty.png in Resources */,
 				758D8A5818D44D5000FC1631 /* TopUsersCell.xib in Resources */,
@@ -574,16 +563,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7528A1461885EB490011A4F7 /* AppDelegate.m in Sources */,
-				75890E1018D9BB2F000CB17C /* GTMOAuthSignIn.m in Sources */,
 				7531E39A18E6C83A001B1647 /* MessageViewController.m in Sources */,
 				7531E39D18E6C863001B1647 /* UserView.m in Sources */,
 				7528A1421885EB490011A4F7 /* main.m in Sources */,
 				758789F618C1E52700627BE3 /* UserSettingsViewController.m in Sources */,
-				75890E1718D9BB73000CB17C /* GTMOAuthViewControllerTouch.m in Sources */,
-				75890E1318D9BB5B000CB17C /* GTMHTTPFetcher.m in Sources */,
 				75A748FE18B8BDEE0007BE5F /* LogInViewController.m in Sources */,
-				75890E0F18D9BB2F000CB17C /* GTMOAuthAuthentication.m in Sources */,
 				7531E3A318E6CB9E001B1647 /* ChallengesViewController.m in Sources */,
+				753C985618F7FB4B00FC4694 /* ApiHelper.m in Sources */,
 				7531E39718E6C7E2001B1647 /* TopViewController.m in Sources */,
 				759C4D5C18D9121200229192 /* TDOAuth.m in Sources */,
 				75878A0018C1E5E200627BE3 /* HomeViewController.m in Sources */,

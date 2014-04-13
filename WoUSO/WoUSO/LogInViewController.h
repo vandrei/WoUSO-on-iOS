@@ -13,6 +13,8 @@
 @property (strong, nonatomic) IBOutlet UIWebView * webView;
 @property (strong, nonatomic) NSString * token;
 @property (strong, nonatomic) NSString *tokenSecret;
-
+@property (nonatomic) BOOL conditie;
+@property (nonatomic) BOOL conditie2;
+@property (strong, nonatomic) NSDictionary * headers;
 
 @end

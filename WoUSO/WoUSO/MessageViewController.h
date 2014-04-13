@@ -13,6 +13,7 @@
 @property (strong,nonatomic) IBOutlet UIView *sentOverlay;
 @property (strong,nonatomic) IBOutlet UIView *receiveOverlay;
 @property (strong,nonatomic) IBOutlet UIView *composeOverlay;
+@property (strong, nonatomic) NSArray * messages;
 
 -(IBAction)sentPressed;
 -(IBAction)receivedPressed;
