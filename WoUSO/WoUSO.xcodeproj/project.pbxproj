@@ -20,6 +20,11 @@
 		7528A1511885EB490011A4F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528A1391885EB480011A4F7 /* UIKit.framework */; };
 		7528A1591885EB490011A4F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7528A1571885EB490011A4F7 /* InfoPlist.strings */; };
 		7528A15B1885EB490011A4F7 /* WoUSOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7528A15A1885EB490011A4F7 /* WoUSOTests.m */; };
+		7530A7761906817700992154 /* MyChallengeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7530A7751906817700992154 /* MyChallengeCell.xib */; };
+		7530A7781906818600992154 /* ChallengeList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7530A7771906818600992154 /* ChallengeList.xib */; };
+		7530A77A19068BF700992154 /* ChallengesListHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7530A77919068BF700992154 /* ChallengesListHeader.xib */; };
+		7530A77E19069AF300992154 /* PlayChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7530A77C19069AF300992154 /* PlayChallengeViewController.m */; };
+		7530A77F19069AF300992154 /* PlayChallengeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7530A77D19069AF300992154 /* PlayChallengeViewController.xib */; };
 		7531E39718E6C7E2001B1647 /* TopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531E39618E6C7E2001B1647 /* TopViewController.m */; };
 		7531E39A18E6C83A001B1647 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531E39918E6C83A001B1647 /* MessageViewController.m */; };
 		7531E39D18E6C863001B1647 /* UserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7531E39C18E6C863001B1647 /* UserView.m */; };
@@ -92,6 +97,7 @@
 		759C4D5C18D9121200229192 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 759C4D5B18D9121200229192 /* TDOAuth.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		75A748FE18B8BDEE0007BE5F /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A748FC18B8BDEE0007BE5F /* LogInViewController.m */; };
 		75A748FF18B8BDEE0007BE5F /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */; };
+		75B8CC741905C105002A06F5 /* MessageListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B8CC731905C105002A06F5 /* MessageListCell.xib */; };
 		75E1EE0518F0042F0097A86F /* ButtonMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E1EE0418F0042F0097A86F /* ButtonMenu.png */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +129,12 @@
 		7528A1561885EB490011A4F7 /* WoUSOTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WoUSOTests-Info.plist"; sourceTree = "<group>"; };
 		7528A1581885EB490011A4F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7528A15A1885EB490011A4F7 /* WoUSOTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WoUSOTests.m; sourceTree = "<group>"; };
+		7530A7751906817700992154 /* MyChallengeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyChallengeCell.xib; sourceTree = "<group>"; };
+		7530A7771906818600992154 /* ChallengeList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChallengeList.xib; sourceTree = "<group>"; };
+		7530A77919068BF700992154 /* ChallengesListHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChallengesListHeader.xib; sourceTree = "<group>"; };
+		7530A77B19069AF300992154 /* PlayChallengeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayChallengeViewController.h; sourceTree = "<group>"; };
+		7530A77C19069AF300992154 /* PlayChallengeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayChallengeViewController.m; sourceTree = "<group>"; };
+		7530A77D19069AF300992154 /* PlayChallengeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayChallengeViewController.xib; sourceTree = "<group>"; };
 		7531E39518E6C7E2001B1647 /* TopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewController.h; sourceTree = "<group>"; };
 		7531E39618E6C7E2001B1647 /* TopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewController.m; sourceTree = "<group>"; };
 		7531E39818E6C83A001B1647 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
@@ -206,6 +218,7 @@
 		75A748FB18B8BDEE0007BE5F /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
 		75A748FC18B8BDEE0007BE5F /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
 		75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
+		75B8CC731905C105002A06F5 /* MessageListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageListCell.xib; sourceTree = "<group>"; };
 		75E1EE0418F0042F0097A86F /* ButtonMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonMenu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -295,6 +308,7 @@
 				7531E39618E6C7E2001B1647 /* TopViewController.m */,
 				758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */,
 				758D8A5718D44D5000FC1631 /* TopUsersCell.xib */,
+				75B8CC731905C105002A06F5 /* MessageListCell.xib */,
 				758D8A5918D44F8000FC1631 /* MessageViewController.xib */,
 				7531E39818E6C83A001B1647 /* MessageViewController.h */,
 				7531E39918E6C83A001B1647 /* MessageViewController.m */,
@@ -307,6 +321,12 @@
 				7531E3A118E6CB9E001B1647 /* ChallengesViewController.h */,
 				7531E3A218E6CB9E001B1647 /* ChallengesViewController.m */,
 				7531E3A418E6CD60001B1647 /* ChallengesViewController.xib */,
+				7530A7751906817700992154 /* MyChallengeCell.xib */,
+				7530A7771906818600992154 /* ChallengeList.xib */,
+				7530A77919068BF700992154 /* ChallengesListHeader.xib */,
+				7530A77B19069AF300992154 /* PlayChallengeViewController.h */,
+				7530A77C19069AF300992154 /* PlayChallengeViewController.m */,
+				7530A77D19069AF300992154 /* PlayChallengeViewController.xib */,
 			);
 			path = WoUSO;
 			sourceTree = "<group>";
@@ -497,6 +517,7 @@
 				7528A1481885EB490011A4F7 /* Images.xcassets in Resources */,
 				75878A4618C1E86A00627BE3 /* levels_cc_1.png in Resources */,
 				75878A5418C1E86A00627BE3 /* provocari.png in Resources */,
+				7530A77F19069AF300992154 /* PlayChallengeViewController.xib in Resources */,
 				75878A5518C1E86A00627BE3 /* smallcoins.png in Resources */,
 				758D8A5A18D44F8000FC1631 /* MessageViewController.xib in Resources */,
 				75878A5F18C1E86A00627BE3 /* wand.png in Resources */,
@@ -506,6 +527,7 @@
 				75878A5918C1E86A00627BE3 /* spell_yellow.png in Resources */,
 				75878A5B18C1E86A00627BE3 /* tops.png in Resources */,
 				75878A5A18C1E86A00627BE3 /* tintasii.png in Resources */,
+				7530A7761906817700992154 /* MyChallengeCell.xib in Resources */,
 				75878A3C18C1E86A00627BE3 /* clasament.png in Resources */,
 				75878A5018C1E86A00627BE3 /* points.png in Resources */,
 				75878A5618C1E86A00627BE3 /* spell_blue.png in Resources */,
@@ -518,6 +540,7 @@
 				758789F718C1E52700627BE3 /* UserSettingsViewController.xib in Resources */,
 				75878A5218C1E86A00627BE3 /* profiles_cb.png in Resources */,
 				75878A3818C1E86A00627BE3 /* button_bg_pressed.png in Resources */,
+				75B8CC741905C105002A06F5 /* MessageListCell.xib in Resources */,
 				75878A3B18C1E86A00627BE3 /* challenges.png in Resources */,
 				7531E3A518E6CD60001B1647 /* ChallengesViewController.xib in Resources */,
 				75878A3318C1E86A00627BE3 /* androidicon.png in Resources */,
@@ -533,11 +556,13 @@
 				75E1EE0518F0042F0097A86F /* ButtonMenu.png in Resources */,
 				75878A4818C1E86A00627BE3 /* list_divider.gif in Resources */,
 				75878A5818C1E86A00627BE3 /* spell_purple.png in Resources */,
+				7530A77A19068BF700992154 /* ChallengesListHeader.xib in Resources */,
 				75878A4218C1E86A00627BE3 /* home_frame.png in Resources */,
 				75878A3218C1E86A00627BE3 /* androidicon_small.png in Resources */,
 				75878A4318C1E86A00627BE3 /* levelex.png in Resources */,
 				758D8A6018D4595200FC1631 /* UserView.xib in Resources */,
 				75878A6018C1E86A00627BE3 /* zburatorii.png in Resources */,
+				7530A7781906818600992154 /* ChallengeList.xib in Resources */,
 				75878A0118C1E5E200627BE3 /* HomeViewController.xib in Resources */,
 				75878A4918C1E86A00627BE3 /* logo.png in Resources */,
 				75878A3A18C1E86A00627BE3 /* cataratori.png in Resources */,
@@ -570,6 +595,7 @@
 				75A748FE18B8BDEE0007BE5F /* LogInViewController.m in Sources */,
 				7531E3A318E6CB9E001B1647 /* ChallengesViewController.m in Sources */,
 				753C985618F7FB4B00FC4694 /* ApiHelper.m in Sources */,
+				7530A77E19069AF300992154 /* PlayChallengeViewController.m in Sources */,
 				7531E39718E6C7E2001B1647 /* TopViewController.m in Sources */,
 				759C4D5C18D9121200229192 /* TDOAuth.m in Sources */,
 				75878A0018C1E5E200627BE3 /* HomeViewController.m in Sources */,

@@ -69,8 +69,30 @@
 {
     ComposeView * composeView = [[ComposeView alloc] initWithNibName:@"ComposeView" bundle:nil];
     composeView.destinationId = self.userId;
-    composeView.receiverName = [self.userInfo objectForKey:@"display_name"];
+    composeView.receiverName = self.nameLabel.text;
     [self.navigationController pushViewController:composeView animated:YES];
+}
+
+-(void)challenge
+{
+    ApiHelper * helper = [[ApiHelper alloc] init];
+    NSDictionary * result = [helper launchChallengeAgainst:self.userId];
+    BOOL status = [[result objectForKey:@"success"] boolValue];
+    NSString * mesaj;
+    if (!status)
+    {
+        mesaj = [result objectForKey:@"error"];
+        if ([mesaj isEqualToString:@"Player cannot launch"])
+        {
+            mesaj = @"You can not launch any challenges";
+        }
+    }
+    else
+        mesaj = [NSString stringWithFormat:@"You have successfully challenged %@", self.nameLabel.text];
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle: @"Challenge" message: mesaj
+                                                   delegate: nil
+                                          cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
 }
 
 -(void)goBack

@@ -35,15 +35,18 @@
 -(NSDictionary *)getGroupMembers:(NSString *)groupId;
 -(NSDictionary *)getGroupActivity:(NSString *)groupId;
 -(NSDictionary *)getGroupEvolution:(NSString *)groupId;
--(NSDictionary *)getReceivedMessages;
--(NSDictionary *)getSentMessages;
+-(NSArray *)getReceivedMessages;
+-(NSArray *)getSentMessages;
 -(NSDictionary *)getAllMessages;
 -(BOOL)sendMessage:(NSString*)message toReceiver:(NSString*)receiver withSubject:(NSString*)subject;
+-(BOOL)sendMessage:(NSString*)message toReceiver:(NSString*)receiver withSubject:(NSString*)subject asReplyTo:(NSString *)reply_to;
 -(NSDictionary *)launchChallengeAgainst:(NSString *)playerId;
 -(NSDictionary *)acceptChallengeWithId:(NSString *)challengeId;
 -(NSDictionary *)refuseChallengeWithId:(NSString *)challengeId;
 -(NSDictionary *)cancelChallengeWithId:(NSString *)challengeId;
 -(NSDictionary *)getChallengeContent:(NSString*)challengeId;
 -(NSDictionary *)sendChallengeAnswers:(NSMutableDictionary*)answers ForChallenge:(NSString *)challengeId;
+-(NSArray *)getAllChallenges;
+-(void)markReadMessage:(NSString *)msgId;
 
 @end

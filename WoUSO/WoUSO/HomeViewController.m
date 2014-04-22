@@ -53,11 +53,16 @@
 -(void) loadData
 {
     ApiHelper * helper = [[ApiHelper alloc] init];
+    NSUserDefaults * defaults = [[NSUserDefaults alloc] init];
     NSDictionary * userInfo = [helper getUserInfo];
     NSString * avatarURL = [userInfo objectForKey:@"avatar"];
     NSString * firstName = [userInfo objectForKey:@"first_name"];
-//    [firstName ]
+    //NSString * userId = [userInfo objectForKey:@"id"];
+    //[defaults setObject:userId forKey:@"userId"];
+    [defaults setObject:firstName forKey:@"first_name"];
+    [defaults synchronize];
     NSString * lastName = [userInfo objectForKey:@"last_name"];
+    [defaults setObject:lastName forKey:@"last_name"];
     NSString * level = [[userInfo objectForKey:@"level_no"] stringValue];
     NSString * points = [[userInfo objectForKey:@"points"] stringValue];
     NSString * gold = [[userInfo objectForKey:@"gold"] stringValue];

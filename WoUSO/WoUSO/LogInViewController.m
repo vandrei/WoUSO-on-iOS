@@ -65,7 +65,7 @@
 
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
 {
-    if (self.conditie2)
+    if (self.conditie)
         [webView setHidden:TRUE];
     return true;
 }
@@ -105,9 +105,9 @@
                                                            options:0 error:&error];
                 }
             }
-            if (self.conditie2)
+            if (self.conditie)
                 [self.navigationController popToRootViewControllerAnimated:YES];
-            self.conditie2 = true;
+            self.conditie = true;
         }
     } else
         self.conditie = true;

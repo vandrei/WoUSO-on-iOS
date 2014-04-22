@@ -31,9 +31,24 @@
     self.sendButton.layer.cornerRadius = 10;
     self.cancelButton.layer.borderWidth = 0.0;
     self.cancelButton.layer.cornerRadius = 10;
-    self.toField.text = self.receiverName;
+    if (self.receiverName != nil)
+    {
+        self.toField.text = self.receiverName;
+        [self.toField setEnabled:NO];
+    }
+    if (self.subject != nil)
+    {
+        self.subjectField.text = self.subject;
+        [self.subjectField setEnabled:NO];
+    }
     // Do any additional setup after loading the view.
 }
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return NO;
+}
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -68,8 +83,10 @@
     NSString * receiver = self.toField.text;
     NSString * subject = self.subjectField.text;
     BOOL sentOK = false;
-    if (message != nil && receiver != nil)
+    if (message != nil && receiver != nil && self.replyTo == nil)
         sentOK = [self.apiHelper sendMessage:message toReceiver:self.destinationId withSubject:subject];
+    else if (message != nil && receiver != nil && self.replyTo != nil)
+        sentOK = [self.apiHelper sendMessage:message toReceiver:self.destinationId withSubject:subject asReplyTo:self.replyTo];
     NSString * responseMessage;
     if (sentOK)
         responseMessage = @"Mesaj trimis!";

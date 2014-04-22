@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -50,8 +50,8 @@
                                 <action selector="button2Presed" destination="-1" eventType="touchDown" id="Wph-Kd-CMV"/>
                             </connections>
                         </button>
-                        <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FxN-Wf-xkt">
-                            <rect key="frame" x="146" y="54" width="86" height="6"/>
+                        <view hidden="YES" opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FxN-Wf-xkt">
+                            <rect key="frame" x="146" y="56" width="86" height="4"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.34267494079999999" green="0.66111351569999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
@@ -68,8 +68,8 @@
                                 <action selector="button3Presed" destination="-1" eventType="touchDown" id="k3l-Nh-nlu"/>
                             </connections>
                         </button>
-                        <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wfO-oR-bZH">
-                            <rect key="frame" x="234" y="54" width="86" height="6"/>
+                        <view hidden="YES" opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wfO-oR-bZH">
+                            <rect key="frame" x="234" y="56" width="86" height="4"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.34267494079999999" green="0.66111351569999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
@@ -88,8 +88,8 @@
                                 <action selector="back" destination="-2" eventType="touchDown" id="bvr-pw-OsH"/>
                             </connections>
                         </button>
-                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SPr-9d-oQ8">
-                            <rect key="frame" x="58" y="54" width="86" height="6"/>
+                        <view opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SPr-9d-oQ8">
+                            <rect key="frame" x="58" y="56" width="86" height="4"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.34267494079999999" green="0.66111351569999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </view>
@@ -104,7 +104,7 @@
                             <rect key="frame" x="0.0" y="0.0" width="320" height="508"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
                             <connections>
                                 <outlet property="dataSource" destination="-1" id="Ahm-3F-4gQ"/>
                                 <outlet property="delegate" destination="-1" id="VfA-GT-JdI"/>

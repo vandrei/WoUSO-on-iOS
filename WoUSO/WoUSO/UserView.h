@@ -22,4 +22,5 @@
 
 -(IBAction)goBack;
 -(IBAction)sendMessage;
+-(IBAction)challenge;
 @end

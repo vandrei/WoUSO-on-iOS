@@ -62,12 +62,64 @@
     return json;
 }
 
+- (void)cacheImage:(UIImage*)image name:(NSString*)imgName
+{
+//    NSString *filename = imgName;
+    if (imgName == nil)
+        return;
+    NSRange range = [imgName rangeOfString:@"?"];
+    NSString * filename;
+    if (range.location != NSNotFound)
+        filename = [imgName substringToIndex:range.location];
+    else
+        filename = imgName;
+    range = [filename rangeOfString:@"/"];
+    while(range.location != NSNotFound)
+    {
+        filename = [filename substringFromIndex:range.location + 1];
+        range = [filename rangeOfString:@"/"];
+    }
+    NSString *uniquePath = [NSTemporaryDirectory() stringByAppendingPathComponent: filename];
+    if(![[NSFileManager defaultManager] fileExistsAtPath: uniquePath])
+    {
+        [UIImagePNGRepresentation(image) writeToFile: uniquePath atomically: YES];
+    }
+}
+
+- (UIImage * )loadCachedImage:(NSString * )imgName
+{
+    if (imgName == nil)
+        return nil;
+    NSRange range = [imgName rangeOfString:@"?"];
+    NSString * filename;
+    if (range.location != NSNotFound)
+        filename = [imgName substringToIndex:range.location];
+    else
+        filename = imgName;
+    range = [filename rangeOfString:@"/"];
+    while(range.location != NSNotFound)
+    {
+        filename = [filename substringFromIndex:range.location + 1];
+        range = [filename rangeOfString:@"/"];
+    }
+    NSString *uniquePath = [NSTemporaryDirectory() stringByAppendingPathComponent: filename];
+    UIImage *image;
+    if([[NSFileManager defaultManager] fileExistsAtPath: uniquePath])
+    {
+        image = [UIImage imageWithContentsOfFile: uniquePath]; // this is the cached image
+    }
+    return image;
+}
+
+
 -(UIImage *)getImageForURL:(NSString *)imgUrl
 {
-    NSError * error;
-    NSURLRequest * rq = [NSURLRequest requestWithURL:[NSURL URLWithString:imgUrl]];
-    NSData *picture = [NSURLConnection sendSynchronousRequest:rq returningResponse:nil error:&error];
-    UIImage * img = [UIImage imageWithData:picture];
+    UIImage * img = [self loadCachedImage:imgUrl];
+    if (img == nil)
+    {
+        img = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:imgUrl]]];
+        [self cacheImage:img name:imgUrl];
+    }
     return img;
 }
 
@@ -102,6 +154,20 @@
     NSMutableDictionary * params = [NSMutableDictionary dictionary];
     [params setObject:receiver forKey:@"receiver"];
     [params setObject:message forKey:@"text"];
+    if (subject != nil)
+        [params setObject:subject forKey:@"subject"];
+    NSData * replyData = [self makePOSTRequest:@"/messages/send/" POSTParameters:params];
+    NSDictionary * json;
+    json = [NSJSONSerialization JSONObjectWithData:replyData options:NSJSONReadingMutableLeaves error:nil];
+    return [[json objectForKey:@"success"] boolValue];
+}
+
+-(BOOL)sendMessage:(NSString*)message toReceiver:(NSString*)receiver withSubject:(NSString*)subject asReplyTo:(NSString *)reply_to
+{
+    NSMutableDictionary * params = [NSMutableDictionary dictionary];
+    [params setObject:receiver forKey:@"receiver"];
+    [params setObject:message forKey:@"text"];
+    [params setObject:reply_to forKey:@"reply_to"];
     if (subject != nil)
         [params setObject:subject forKey:@"subject"];
     NSData * replyData = [self makePOSTRequest:@"/messages/send/" POSTParameters:params];
@@ -194,12 +260,12 @@
     return [self makeGETRequest:getURL];
 }
 
--(NSDictionary *)getReceivedMessages
+-(NSArray *)getReceivedMessages
 {
     return [self makeGETRequest:@"messages/recv/"];
 }
 
--(NSDictionary *)getSentMessages
+-(NSArray *)getSentMessages
 {
     return [self makeGETRequest:@"messages/sent/"];
 }
@@ -209,7 +275,7 @@
     return [self makeGETRequest:@"messages/all/"];
 }
 
--(NSDictionary *)getAllChallenges
+-(NSArray *)getAllChallenges
 {
     return [self makeGETRequest:@"challenge/list/"];
 }
@@ -251,6 +317,12 @@
     NSDictionary * jsonResponse;
     jsonResponse = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableLeaves error:nil];
     return jsonResponse;
+}
+
+- (void)markReadMessage:(NSString *)msgId
+{
+    NSString * url = [NSString stringWithFormat:@"/messages/setread/%@/", msgId];
+    [self makePOSTRequest:url POSTParameters:[NSMutableDictionary dictionary]];
 }
 
 @end
