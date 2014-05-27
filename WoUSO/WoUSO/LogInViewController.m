@@ -16,6 +16,11 @@
 
 @end
 
+@interface NSURLRequest (DummyInterface)
++ (BOOL)allowsAnyHTTPSCertificateForHost:(NSString*)host;
++ (void)setAllowsAnyHTTPSCertificate:(BOOL)allow forHost:(NSString*)host;
+@end
+
 @implementation LogInViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -44,6 +49,9 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     NSURLRequest *rq = [TDOAuth URLRequestForPath:@"/request_token/" GETParameters:dict scheme:@"https" host:@"wouso.cs.pub.ro/next/api/oauth" consumerKey:@"key" consumerSecret:@"secret" accessToken:@"" tokenSecret:nil];
+    NSURL * url = [NSURL URLWithString:@"https://wouso.cs.pub.ro/"];
+//    [rq ]
+    [NSURLRequest setAllowsAnyHTTPSCertificate:YES forHost:[url host]];
     NSURLResponse* response;
     NSError* error = nil;
     NSData* result = [NSURLConnection sendSynchronousRequest:rq  returningResponse:&response error:&error];
