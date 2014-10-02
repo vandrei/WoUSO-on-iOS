@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D20700A19D561F600AC9082 /* MRBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20700919D561F600AC9082 /* MRBaseController.m */; };
 		7517DC6D18D8C41D00E31BC6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7517DC6C18D8C41D00E31BC6 /* SystemConfiguration.framework */; };
 		7528A1361885EB480011A4F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528A1351885EB480011A4F7 /* Foundation.framework */; };
 		7528A1381885EB480011A4F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7528A1371885EB480011A4F7 /* CoreGraphics.framework */; };
@@ -50,7 +51,6 @@
 		75878A3B18C1E86A00627BE3 /* challenges.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A0C18C1E86A00627BE3 /* challenges.png */; };
 		75878A3C18C1E86A00627BE3 /* clasament.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A0D18C1E86A00627BE3 /* clasament.png */; };
 		75878A3D18C1E86A00627BE3 /* coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A0E18C1E86A00627BE3 /* coins.png */; };
-		75878A3F18C1E86A00627BE3 /* empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A1018C1E86A00627BE3 /* empty.png */; };
 		75878A4018C1E86A00627BE3 /* fundal.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A1118C1E86A00627BE3 /* fundal.png */; };
 		75878A4118C1E86A00627BE3 /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A1218C1E86A00627BE3 /* gold.png */; };
 		75878A4218C1E86A00627BE3 /* home_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 75878A1318C1E86A00627BE3 /* home_frame.png */; };
@@ -99,6 +99,7 @@
 		75A748FF18B8BDEE0007BE5F /* LogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */; };
 		75B8CC741905C105002A06F5 /* MessageListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B8CC731905C105002A06F5 /* MessageListCell.xib */; };
 		75E1EE0518F0042F0097A86F /* ButtonMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E1EE0418F0042F0097A86F /* ButtonMenu.png */; };
+		F43E1F9E1927472EBCEE6110 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B41E916229EC49D7A3AB8366 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D20700819D561F600AC9082 /* MRBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRBaseController.h; sourceTree = "<group>"; };
+		2D20700919D561F600AC9082 /* MRBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRBaseController.m; sourceTree = "<group>"; };
 		7517DC6C18D8C41D00E31BC6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7528A1321885EB480011A4F7 /* WoUSO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WoUSO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7528A1351885EB480011A4F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -168,7 +171,6 @@
 		75878A0C18C1E86A00627BE3 /* challenges.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = challenges.png; sourceTree = "<group>"; };
 		75878A0D18C1E86A00627BE3 /* clasament.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clasament.png; sourceTree = "<group>"; };
 		75878A0E18C1E86A00627BE3 /* coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coins.png; sourceTree = "<group>"; };
-		75878A1018C1E86A00627BE3 /* empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = empty.png; sourceTree = "<group>"; };
 		75878A1118C1E86A00627BE3 /* fundal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fundal.png; sourceTree = "<group>"; };
 		75878A1218C1E86A00627BE3 /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
 		75878A1318C1E86A00627BE3 /* home_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_frame.png; sourceTree = "<group>"; };
@@ -220,6 +222,8 @@
 		75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogInViewController.xib; sourceTree = "<group>"; };
 		75B8CC731905C105002A06F5 /* MessageListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageListCell.xib; sourceTree = "<group>"; };
 		75E1EE0418F0042F0097A86F /* ButtonMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ButtonMenu.png; sourceTree = "<group>"; };
+		9B0DD884EB2345EE893E7BD5 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		B41E916229EC49D7A3AB8366 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +236,7 @@
 				7528A1381885EB480011A4F7 /* CoreGraphics.framework in Frameworks */,
 				7528A13A1885EB480011A4F7 /* UIKit.framework in Frameworks */,
 				7528A1361885EB480011A4F7 /* Foundation.framework in Frameworks */,
+				F43E1F9E1927472EBCEE6110 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +253,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D20700419D5613700AC9082 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2D20700719D561D500AC9082 /* Base */,
+				2D20700519D5614800AC9082 /* UI */,
+				75A748FB18B8BDEE0007BE5F /* LogInViewController.h */,
+				75A748FC18B8BDEE0007BE5F /* LogInViewController.m */,
+				758789F318C1E52700627BE3 /* UserSettingsViewController.h */,
+				758789F418C1E52700627BE3 /* UserSettingsViewController.m */,
+				758789FD18C1E5E200627BE3 /* HomeViewController.h */,
+				758789FE18C1E5E200627BE3 /* HomeViewController.m */,
+				75878A6118C1F21200627BE3 /* BazarViewController.h */,
+				75878A6218C1F21200627BE3 /* BazarViewController.m */,
+				7531E39518E6C7E2001B1647 /* TopViewController.h */,
+				7531E39618E6C7E2001B1647 /* TopViewController.m */,
+				7531E39818E6C83A001B1647 /* MessageViewController.h */,
+				7531E39918E6C83A001B1647 /* MessageViewController.m */,
+				7531E39B18E6C863001B1647 /* UserView.h */,
+				7531E39C18E6C863001B1647 /* UserView.m */,
+				7531E39E18E6C8A5001B1647 /* ComposeView.h */,
+				7531E39F18E6C8A5001B1647 /* ComposeView.m */,
+				7531E3A118E6CB9E001B1647 /* ChallengesViewController.h */,
+				7531E3A218E6CB9E001B1647 /* ChallengesViewController.m */,
+				7530A77B19069AF300992154 /* PlayChallengeViewController.h */,
+				7530A77C19069AF300992154 /* PlayChallengeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		2D20700519D5614800AC9082 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2D20700619D5618600AC9082 /* Cells */,
+				75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */,
+				758789F518C1E52700627BE3 /* UserSettingsViewController.xib */,
+				758789FF18C1E5E200627BE3 /* HomeViewController.xib */,
+				75878A6318C1F21200627BE3 /* BazarViewController.xib */,
+				758D8A5318D4484D00FC1631 /* TopViewController.xib */,
+				758D8A5918D44F8000FC1631 /* MessageViewController.xib */,
+				758D8A5F18D4595200FC1631 /* UserView.xib */,
+				758D8A5D18D455C100FC1631 /* ComposeView.xib */,
+				7531E3A418E6CD60001B1647 /* ChallengesViewController.xib */,
+				7530A77D19069AF300992154 /* PlayChallengeViewController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		2D20700619D5618600AC9082 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7590A07F18F9800C00FCD25B /* BazaarSummary.xib */,
+				75878A6618C1F40100627BE3 /* BazaarCell.xib */,
+				758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */,
+				758D8A5718D44D5000FC1631 /* TopUsersCell.xib */,
+				75B8CC731905C105002A06F5 /* MessageListCell.xib */,
+				7530A7751906817700992154 /* MyChallengeCell.xib */,
+				7530A7771906818600992154 /* ChallengeList.xib */,
+				7530A77919068BF700992154 /* ChallengesListHeader.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		2D20700719D561D500AC9082 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2D20700819D561F600AC9082 /* MRBaseController.h */,
+				2D20700919D561F600AC9082 /* MRBaseController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		7528A1291885EB480011A4F7 = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +331,7 @@
 				7528A1541885EB490011A4F7 /* WoUSOTests */,
 				7528A1341885EB480011A4F7 /* Frameworks */,
 				7528A1331885EB480011A4F7 /* Products */,
+				9B0DD884EB2345EE893E7BD5 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -276,6 +353,7 @@
 				7528A1371885EB480011A4F7 /* CoreGraphics.framework */,
 				7528A1391885EB480011A4F7 /* UIKit.framework */,
 				7528A14E1885EB490011A4F7 /* XCTest.framework */,
+				B41E916229EC49D7A3AB8366 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -283,50 +361,13 @@
 		7528A13B1885EB480011A4F7 /* WoUSO */ = {
 			isa = PBXGroup;
 			children = (
+				2D20700419D5613700AC9082 /* Controllers */,
 				759C4D5918D911FA00229192 /* WoUSO API */,
 				75878A0218C1E81E00627BE3 /* IMG */,
 				7528A1441885EB490011A4F7 /* AppDelegate.h */,
 				7528A1451885EB490011A4F7 /* AppDelegate.m */,
 				7528A1471885EB490011A4F7 /* Images.xcassets */,
 				7528A13C1885EB490011A4F7 /* Supporting Files */,
-				75A748FB18B8BDEE0007BE5F /* LogInViewController.h */,
-				75A748FC18B8BDEE0007BE5F /* LogInViewController.m */,
-				75A748FD18B8BDEE0007BE5F /* LogInViewController.xib */,
-				758789F318C1E52700627BE3 /* UserSettingsViewController.h */,
-				758789F418C1E52700627BE3 /* UserSettingsViewController.m */,
-				758789F518C1E52700627BE3 /* UserSettingsViewController.xib */,
-				758789FD18C1E5E200627BE3 /* HomeViewController.h */,
-				758789FE18C1E5E200627BE3 /* HomeViewController.m */,
-				758789FF18C1E5E200627BE3 /* HomeViewController.xib */,
-				75878A6118C1F21200627BE3 /* BazarViewController.h */,
-				75878A6218C1F21200627BE3 /* BazarViewController.m */,
-				75878A6318C1F21200627BE3 /* BazarViewController.xib */,
-				7590A07F18F9800C00FCD25B /* BazaarSummary.xib */,
-				75878A6618C1F40100627BE3 /* BazaarCell.xib */,
-				758D8A5318D4484D00FC1631 /* TopViewController.xib */,
-				7531E39518E6C7E2001B1647 /* TopViewController.h */,
-				7531E39618E6C7E2001B1647 /* TopViewController.m */,
-				758D8A5518D44B3200FC1631 /* TopSeriesCell.xib */,
-				758D8A5718D44D5000FC1631 /* TopUsersCell.xib */,
-				75B8CC731905C105002A06F5 /* MessageListCell.xib */,
-				758D8A5918D44F8000FC1631 /* MessageViewController.xib */,
-				7531E39818E6C83A001B1647 /* MessageViewController.h */,
-				7531E39918E6C83A001B1647 /* MessageViewController.m */,
-				758D8A5F18D4595200FC1631 /* UserView.xib */,
-				7531E39B18E6C863001B1647 /* UserView.h */,
-				7531E39C18E6C863001B1647 /* UserView.m */,
-				758D8A5D18D455C100FC1631 /* ComposeView.xib */,
-				7531E39E18E6C8A5001B1647 /* ComposeView.h */,
-				7531E39F18E6C8A5001B1647 /* ComposeView.m */,
-				7531E3A118E6CB9E001B1647 /* ChallengesViewController.h */,
-				7531E3A218E6CB9E001B1647 /* ChallengesViewController.m */,
-				7531E3A418E6CD60001B1647 /* ChallengesViewController.xib */,
-				7530A7751906817700992154 /* MyChallengeCell.xib */,
-				7530A7771906818600992154 /* ChallengeList.xib */,
-				7530A77919068BF700992154 /* ChallengesListHeader.xib */,
-				7530A77B19069AF300992154 /* PlayChallengeViewController.h */,
-				7530A77C19069AF300992154 /* PlayChallengeViewController.m */,
-				7530A77D19069AF300992154 /* PlayChallengeViewController.xib */,
 			);
 			path = WoUSO;
 			sourceTree = "<group>";
@@ -378,7 +419,6 @@
 				75878A0C18C1E86A00627BE3 /* challenges.png */,
 				75878A0D18C1E86A00627BE3 /* clasament.png */,
 				75878A0E18C1E86A00627BE3 /* coins.png */,
-				75878A1018C1E86A00627BE3 /* empty.png */,
 				75878A1118C1E86A00627BE3 /* fundal.png */,
 				75878A1218C1E86A00627BE3 /* gold.png */,
 				75878A1318C1E86A00627BE3 /* home_frame.png */,
@@ -433,9 +473,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7528A15E1885EB490011A4F7 /* Build configuration list for PBXNativeTarget "WoUSO" */;
 			buildPhases = (
+				C2B0BDACB9B74AC5A45CB569 /* Check Pods Manifest.lock */,
 				7528A12E1885EB480011A4F7 /* Sources */,
 				7528A12F1885EB480011A4F7 /* Frameworks */,
 				7528A1301885EB480011A4F7 /* Resources */,
+				4E35C991F32040C1B011398D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -473,6 +515,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Rosedu;
 				TargetAttributes = {
+					7528A1311885EB480011A4F7 = {
+						DevelopmentTeam = U2329EW9VW;
+					};
 					7528A14C1885EB490011A4F7 = {
 						TestTargetID = 7528A1311885EB480011A4F7;
 					};
@@ -535,7 +580,6 @@
 				75878A4A18C1E86A00627BE3 /* map.png in Resources */,
 				75878A5118C1E86A00627BE3 /* profiles_ca.png in Resources */,
 				75878A4718C1E86A00627BE3 /* list_bg.jpg in Resources */,
-				75878A3F18C1E86A00627BE3 /* empty.png in Resources */,
 				75878A4418C1E86A00627BE3 /* levels_ca_1.png in Resources */,
 				758789F718C1E52700627BE3 /* UserSettingsViewController.xib in Resources */,
 				75878A5218C1E86A00627BE3 /* profiles_cb.png in Resources */,
@@ -582,6 +626,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4E35C991F32040C1B011398D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B0BDACB9B74AC5A45CB569 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7528A12E1885EB480011A4F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -593,6 +670,7 @@
 				7528A1421885EB490011A4F7 /* main.m in Sources */,
 				758789F618C1E52700627BE3 /* UserSettingsViewController.m in Sources */,
 				75A748FE18B8BDEE0007BE5F /* LogInViewController.m in Sources */,
+				2D20700A19D561F600AC9082 /* MRBaseController.m in Sources */,
 				7531E3A318E6CB9E001B1647 /* ChallengesViewController.m in Sources */,
 				753C985618F7FB4B00FC4694 /* ApiHelper.m in Sources */,
 				7530A77E19069AF300992154 /* PlayChallengeViewController.m in Sources */,
@@ -659,6 +737,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Olteanu (TQ9QWFY386)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -679,6 +758,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PROVISIONING_PROFILE = "90A1F26E-B82B-4310-A98C-54AF847836C6";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -700,6 +780,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Olteanu (TQ9QWFY386)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -713,6 +794,7 @@
 				"HEADER_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/OAuth2Client-master/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				PROVISIONING_PROFILE = "90A1F26E-B82B-4310-A98C-54AF847836C6";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -720,14 +802,16 @@
 		};
 		7528A15F1885EB490011A4F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0DD884EB2345EE893E7BD5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Olteanu (TQ9QWFY386)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WoUSO/WoUSO-Prefix.pch";
 				INFOPLIST_FILE = "WoUSO/WoUSO-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90A1F26E-B82B-4310-A98C-54AF847836C6";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -735,14 +819,16 @@
 		};
 		7528A1601885EB490011A4F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0DD884EB2345EE893E7BD5 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Daniel Olteanu (TQ9QWFY386)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WoUSO/WoUSO-Prefix.pch";
 				INFOPLIST_FILE = "WoUSO/WoUSO-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "90A1F26E-B82B-4310-A98C-54AF847836C6";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};

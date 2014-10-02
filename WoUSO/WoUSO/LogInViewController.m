@@ -50,7 +50,6 @@
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     NSURLRequest *rq = [TDOAuth URLRequestForPath:@"/request_token/" GETParameters:dict scheme:@"https" host:@"wouso.cs.pub.ro/next/api/oauth" consumerKey:@"key" consumerSecret:@"secret" accessToken:@"" tokenSecret:nil];
     NSURL * url = [NSURL URLWithString:@"https://wouso.cs.pub.ro/"];
-//    [rq ]
     [NSURLRequest setAllowsAnyHTTPSCertificate:YES forHost:[url host]];
     NSURLResponse* response;
     NSError* error = nil;

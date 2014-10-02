@@ -20,16 +20,6 @@
 
 @implementation HomeViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    self.navigationController.delegate = self;
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -78,18 +68,6 @@
     self.pictureImageView.layer.cornerRadius = self.pictureImageView.frame.size.height /2;
     self.pictureImageView.layer.masksToBounds = YES;
     self.pictureImageView.layer.borderWidth = 0;
-}
-
-- (void)navigationController:(UINavigationController *)navigationController
-      willShowViewController:(UIViewController *)viewController animated:(BOOL)animated
-{
-    [self viewWillAppear:animated];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 -(void)logOut
